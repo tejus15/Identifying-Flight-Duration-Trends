@@ -37,5 +37,3 @@ transformed_data %>%
   group_by(airport_name) %>% 
   summarize(count = n()) %>% 
   arrange(count)
-
-least <- "Eagle County Regional Airport"
